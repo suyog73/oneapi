@@ -31,7 +31,7 @@ void verfyOutput(int *a, int *b, int *c, int n)
 
 int main()
 {
-    const int N = 10;
+    const int N = 1e5;
     int a[N], b[N], c[N];
 
     // Initialize input arrays
@@ -63,12 +63,12 @@ int main()
     // Verify the output
     verfyOutput(a, b, c, N);
 
-    cout << "Array a:- ";
-    printArray(a, N);
-    cout << "Array b:- ";
-    printArray(b, N);
-    cout << "Array c:- ";
-    printArray(c, N);
+    // cout << "Array a:- ";
+    // printArray(a, N);
+    // cout << "Array b:- ";
+    // printArray(b, N);
+    // cout << "Array c:- ";
+    // printArray(c, N);
     cout << "Success!\n";
     return 0;
 }
